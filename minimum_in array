@@ -1,0 +1,11 @@
+array=[12,2,4,57,82,11]
+minimum = array[0]
+
+def search(array,minimum):
+    for i in array:
+        if i > minimum:
+            minimum = i
+    print(minimum)
+  
+
+print(search(array,minimum))
